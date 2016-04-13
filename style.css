@@ -37,15 +37,11 @@ html,body {
   font-weight: 600;
 }
 .head-logo{
-	float:left;
+	font-size: 2em;
 }
 .head-logo a:hover{
-	text-decoration:none;
+	text-decoration: none;
 	color:#FFF;
-}
-.top-nav {
-  float: right;
-  margin-top: .3em;
 }
 .top-nav a img {
   background: rgba(255, 255, 255, 0.21);
@@ -61,8 +57,12 @@ html,body {
   outline: none !important;
   color: #98D361 !important;
 }
+.banner-info-left {
+    position: relative;
+    bottom: 4em; 
+}
 .banner-info-left h2{
-  font-size: 2em;
+  font-size: 2.5em;
   margin: 9em 0 1em 0;
   color: #FFF;
   font-weight: 300;
@@ -74,7 +74,7 @@ html,body {
 }
 .banner-info-left p{
   color: #FFF;
-  font-size: 1em;
+  font-size: 1.3em;
   margin: 0 0 3em 0;
   line-height: 1.8em;
 }
@@ -90,6 +90,7 @@ html,body {
 }
 .mobile-device {
   margin-top: 7em;
+  
 }
 /*------------------ Slider Part starts Here----------*/
 #slider2,
